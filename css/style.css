@@ -1,3 +1,9 @@
+/* general */
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 /* buttons */
 .btn__blue__text{
   color: #2c6ded;
@@ -21,6 +27,12 @@
   background-color: #5899fc;;
   border:1px solid #5899fc;
 }
+
+.btn__social{
+  position: relative;
+  border: 1px solid black;
+}
+
 
 /* navigazione */
 .navigation{
@@ -62,11 +74,41 @@ header a{
 
 .hero{
   margin-top: 60px;
+  background-image: url("../img/bg-hero.svg");
+  color: white;
+  padding: 30px 0;
 }
 
-.btn__social{
-  position: relative;
-  border: 1px solid black;
+.hero .hero__title h2{
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.hero .hero__title p{
+  font-size: 25px;
+  color: #aec3fd;
+  font-weight: 700;
+}
+
+.form__text{
+  padding-bottom: 25px;
+}
+
+.form__text h3{
+  font-size: 25px;
+}
+
+.form__section{
+  text-align: center;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 10px;
+  margin-top: 20px;
+}
+
+.clickable__links{
+  color: #2c6ded;
 }
 
 .google__logo{
@@ -75,4 +117,16 @@ header a{
   top: 0;
   bottom: 0;
   height: 100%;
+}
+
+/* responsive */
+
+@media screen and (max-width: 992px){
+  .hero .hero__title h2{
+    font-size: 35px;
+  }
+
+  .hero .hero__title p{
+    font-size: 20px;
+  }
 }

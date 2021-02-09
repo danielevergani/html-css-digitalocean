@@ -10,6 +10,10 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <!-- end fontawesome -->
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- end google font -->
     <!-- style -->
     <link rel="stylesheet" href="css/style.css">
     <!-- end style -->
@@ -53,12 +57,17 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-sm-7 col-md-7">
-              <h2>The simplest cloud platform for developers & teams</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quasi velit omnis ipsa atque deserunt molestias ipsam ducimus unde temporibus fugiat molestiae, vero quae possimus eum dolore tenetur, tempora placeat?</p>
+              <div class="hero__title">
+                <h2>The simplest cloud platform for developers & teams</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quasi velit omnis ipsa atque deserunt molestias ipsam ducimus unde temporibus fugiat molestiae, vero quae possimus eum dolore tenetur, tempora placeat?</p>
+              </div>
             </div>
             <div class="col-xs-12 col-sm-5 col-md-5">
-              <div>
-                <h3>Deploy your app in seconds <br> <a href="#">Get started now</a></h3>
+              <div class="form__section">
+                <div class="form__text">
+                  <h3>Deploy your app in seconds <br>
+                  <a class="clickable__links" href="#">Get started now</a></h3>
+                </div>
                 <form>
                   <div class="form-group">
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
@@ -68,6 +77,7 @@
                   </div>
                   <button type="button" class="btn btn__white__text btn__blue btn-lg btn__large btn-block">Create your account</button>
                   <a class="btn btn-lg btn__large btn-block btn__social" href="#"><img class="google__logo" src="img/google-icon.png" alt=""> Sign up with google</a>
+                  <p><small>By signing up you agree to the <a class="clickable__links" href="#">Term of service</a></small></p>
                 </form>
               </div>
           </div>
