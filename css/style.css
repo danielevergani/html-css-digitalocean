@@ -4,6 +4,14 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+.bg__grey{
+  background-color: #f3f5f9;
+}
+
+.clickable__links{
+  color: #2c6ded;
+}
+
 /* buttons */
 .btn__blue__text{
   color: #2c6ded;
@@ -107,10 +115,6 @@ header a{
   margin-top: 20px;
 }
 
-.clickable__links{
-  color: #2c6ded;
-}
-
 .google__logo{
   position: absolute;
   left: 0;
@@ -118,6 +122,33 @@ header a{
   bottom: 0;
   height: 100%;
 }
+
+/* end hero */
+
+/* different brand */
+
+#different__brand{
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+#different__brand h2{
+  margin-top: 0;
+  font-size: 20px;
+  color: #77829d;
+  padding-bottom: 10px;
+}
+
+.brand__img{
+  display: inline-block;
+  padding: 0 15px;
+  width: calc((100% / 6) - 4px);
+}
+
+.brand__img img{
+  width: 100%;
+}
+
 
 /* responsive */
 
@@ -128,5 +159,15 @@ header a{
 
   .hero .hero__title p{
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .brand__img{
+    width: calc((100% / 2) - 4px);
+  }
+
+  #different__brand h2{
+    font-size: 16px;
   }
 }
