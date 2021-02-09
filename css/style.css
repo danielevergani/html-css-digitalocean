@@ -1,3 +1,28 @@
+/* buttons */
+.btn__blue__text{
+  color: #2c6ded;
+}
+
+.btn__white__text{
+  color: white;
+}
+
+.btn{
+  background-color: white;
+  border:1px solid #2c6ded;
+}
+
+.btn__large{
+  height: 34px;
+  padding: 5px 16px;
+}
+
+.btn__blue{
+  background-color: #5899fc;;
+  border:1px solid #5899fc;
+}
+
+/* navigazione */
 .navigation{
   height:60px;
   background-color: white;
@@ -31,11 +56,23 @@ header a{
   margin-left: 200px;
 }
 
-.btn__blue{
-  color: #2c6ded;
+/* end navigazione */
+
+/* hero */
+
+.hero{
+  margin-top: 60px;
 }
 
-.btn{
-  background-color: white;
-  border:1px solid #2c6ded;
+.btn__social{
+  position: relative;
+  border: 1px solid black;
+}
+
+.google__logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
 }
