@@ -158,8 +158,86 @@ header a{
   width: 100%;
 }
 
+/* configuration*/
+
+#configuration{
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.config__choice{
+  list-style: none;
+  text-align: left;
+  border-left: 1px solid #75809A;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.config__choice li{
+  padding: 10px 0;
+}
+
+.config__choice a{
+  color: #75809A;
+  font-size: 18px;
+}
+
+.config__section{
+  padding-top: 25px;
+}
+
+.config__block{
+  padding-bottom: 15px;
+}
+
+.config__block h4{
+  padding: 10px 0;
+}
+
+/* design */
+
+#design{
+  padding: 40px 0;
+}
+
+
+#design h2{
+  color: #051f4e;
+}
+
+#design p:only-of-type{
+  color: #75809A;
+  padding-top: 20px;
+}
+
+.design__example{
+  display:inline-block;
+  width: 70%;
+}
+
+.design__example img{
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.design__example p{
+  color: #051f4e;
+}
+
+.circles i{
+  margin: 0 2px;
+  color: #2c6ded;
+}
+
 
 /* responsive */
+
+@media screen and (min-width: 992px){
+  .config__choice{
+    margin-left: 50px;
+  }
+}
 
 @media screen and (max-width: 992px){
   .hero .hero__title h2{
@@ -169,6 +247,7 @@ header a{
   .hero .hero__title p{
     font-size: 20px;
   }
+
 }
 
 @media screen and (max-width: 767px){
