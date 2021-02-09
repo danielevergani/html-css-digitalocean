@@ -1,3 +1,41 @@
-body{
-  background: blue;
+.navigation{
+  height:60px;
+  background-color: white;
+}
+
+.nav__logo{
+  display: inline-block;
+  line-height: 60px
+}
+
+.nav__logo img{
+  width: 150px;
+}
+
+.nav__bars,
+.hamburger{
+  display: inline-block;
+  float: right;
+  line-height: 60px
+}
+
+.navigation nav{
+  display: inline-block;
+}
+
+header a{
+  color: black;
+}
+
+.secondary__nav{
+  margin-left: 200px;
+}
+
+.btn__blue{
+  color: #2c6ded;
+}
+
+.btn{
+  background-color: white;
+  border:1px solid #2c6ded;
 }
