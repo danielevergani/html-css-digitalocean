@@ -333,6 +333,32 @@ header a{
   padding-bottom: 20px;
 }
 
+/* footer */
+
+footer{
+  color: #75809A;
+  padding: 40px 0;
+}
+
+footer ul{
+  padding-left: 0px;
+
+}
+
+footer li{
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+footer i{
+  color: #75809A;
+  font-size: 20px;
+}
+
+footer h5{
+  color: white;
+}
+
 /* responsive */
 
 @media screen and (min-width: 992px){
