@@ -251,6 +251,34 @@ header a{
   color: #75809A;
 }
 
+/* table */
+
+#table{
+  padding: 40px 0;
+  color: white;
+  background-color: #031b4e;
+  background-image: url("../img/bg-map.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#table h2{
+  padding-bottom: 30px;
+}
+
+.table>tbody>tr>th{
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.table>tbody>tr>td{
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.table>tbody>tr>td:last-child{
+  text-align: right;
+}
 
 /* responsive */
 
