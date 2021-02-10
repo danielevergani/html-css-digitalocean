@@ -200,7 +200,6 @@ header a{
   padding: 40px 0;
 }
 
-
 #design h2{
   color: #051f4e;
 }
@@ -212,11 +211,19 @@ header a{
 
 .design__example{
   display:inline-block;
-  width: 70%;
+  width: 80%;
+}
+
+.scroll__img{
+  display: inline-block;
+  padding: 10px;
+  font-size: 30px;
+  vertical-align: -50%;
 }
 
 .design__example img{
-  width: 100%;
+  width: 80%;
+  margin: auto;
   padding-top: 30px;
   padding-bottom: 15px;
 }
@@ -257,5 +264,9 @@ header a{
 
   #different__brand h2{
     font-size: 16px;
+  }
+
+  .scroll__img{
+    display: none;
   }
 }
