@@ -8,6 +8,10 @@ body{
   background-color: #f3f5f9;
 }
 
+.bg-blue{
+  background-color: #031b4e;
+}
+
 .clickable__links{
   color: #2c6ded;
 }
@@ -256,7 +260,6 @@ header a{
 #table{
   padding: 40px 0;
   color: white;
-  background-color: #031b4e;
   background-image: url("../img/bg-map.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -278,6 +281,42 @@ header a{
 
 .table>tbody>tr>td:last-child{
   text-align: right;
+}
+
+/* development */
+
+#development{
+  padding: 40px 0;
+}
+
+#development h2{
+  padding-bottom: 30px;
+}
+
+.box{
+  display: inline-block;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  padding: 20px 0 40px 0;
+}
+
+.box img{
+  width: 65%;
+}
+
+.box p:first-of-type{
+  font-size: 20px;
+  color: #75809A;
+  margin-bottom: 20px;
+}
+
+#development i{
+  padding-top: 10px;
+}
+
+#development .scroll__img{
+  vertical-align: 170%;
 }
 
 /* responsive */
