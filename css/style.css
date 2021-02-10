@@ -369,11 +369,13 @@ footer h5{
 }
 
 .vignetta{
+  z-index: 6;
   position: relative;
   width:300px;
   display: inline-block;
-  background-color: #C1E5F5;
+  background-color: white;
   color: black;
+  border: 1px solid black;
   border-radius: 5px;
 }
 
@@ -381,37 +383,76 @@ footer h5{
   display: none;
   position: relative;
   width:300px;
-  background-color: #C1E5F5;
+  background-color: white;
+  border: 1px solid black;
   color: black;
   border-radius: 5px;
   margin-top: 10px;
 }
 
-.vignetta i{
+.arrow-right-white {
+  z-index: 10;
   position: absolute;
-  right: -3%;
-  bottom: 5%;
-  font-size: 30px;
-  color: #C1E5F5;
+  right: -10px;
+  bottom: 17px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid white;
 }
 
-.vignetta__2 i{
+.arrow-right-black {
+  z-index: 5;
   position: absolute;
-  top: -46%;
-  left: 5%;
-  font-size: 30px;
-  color: #C1E5F5;
+  right: -12px;
+  bottom: 15px;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 12px solid black;
+}
+
+.arrow-up-white {
+  z-index: 10;
+  position: absolute;
+  top: -10px;
+  left: 22px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+}
+
+.arrow-up-black {
+  z-index: 5;
+  position: absolute;
+  top: -12px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid black;
 }
 
 .vignetta p{
   padding: 5px;
+  margin-bottom: 0px;
+}
+
+.vignetta__2 p{
+  padding: 5px;
+  margin-bottom: 0px;
 }
 
 .icona__gatto{
   height: 55px;
   width: 55px;
   display: inline-block;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .icona__gatto img{
