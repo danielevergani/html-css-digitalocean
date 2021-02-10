@@ -12,6 +12,10 @@ body{
   background-color: #031b4e;
 }
 
+.bg__light__blue{
+  background-color: #2c6ded;
+}
+
 .clickable__links{
   color: #2c6ded;
 }
@@ -317,6 +321,16 @@ header a{
 
 #development .scroll__img{
   vertical-align: 170%;
+}
+
+/* get started */
+#get__started{
+  padding: 40px;
+}
+
+#get__started h2{
+  color: white;
+  padding-bottom: 20px;
 }
 
 /* responsive */
