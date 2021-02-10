@@ -361,7 +361,7 @@ footer h5{
 
 /* squalo */
 
-.squalo{
+.gatto{
   position: fixed;
   z-index: 10;
   bottom: 3%;
@@ -372,16 +372,16 @@ footer h5{
   position: relative;
   width:300px;
   display: inline-block;
-  background-color: white;
+  background-color: #C1E5F5;
   color: black;
-  border: 1px solid #2c6ded;
   border-radius: 5px;
 }
 
 .vignetta__2{
   display: none;
+  position: relative;
   width:300px;
-  background-color: white;
+  background-color: #C1E5F5;
   color: black;
   border-radius: 5px;
   margin-top: 10px;
@@ -392,21 +392,29 @@ footer h5{
   right: -3%;
   bottom: 5%;
   font-size: 30px;
-  color: white;
+  color: #C1E5F5;
+}
+
+.vignetta__2 i{
+  position: absolute;
+  top: -46%;
+  left: 5%;
+  font-size: 30px;
+  color: #C1E5F5;
 }
 
 .vignetta p{
   padding: 5px;
 }
 
-.icona__squalo{
+.icona__gatto{
   height: 55px;
   width: 55px;
   display: inline-block;
   margin-left: 5px;
 }
 
-.icona__squalo img{
+.icona__gatto img{
   width: 100%;
 }
 
@@ -444,7 +452,7 @@ footer h5{
     display: none;
   }
 
-  .squalo{
+  .gatto{
     position: fixed;
     z-index: 10;
     bottom: 3%;
@@ -457,5 +465,9 @@ footer h5{
 
   .vignetta{
     display: none;
+  }
+
+  .icona__gatto{
+    margin-bottom: 5px;
   }
 }
