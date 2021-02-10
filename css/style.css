@@ -359,6 +359,52 @@ footer h5{
   color: white;
 }
 
+/* squalo */
+
+.squalo{
+  position: fixed;
+  z-index: 10;
+  bottom: 3%;
+  right: 3%;
+}
+
+.vignetta{
+  width:300px;
+  display: inline-block;
+  background-color: white;
+  color: black;
+  border: 1px solid #2c6ded;
+  border-radius: 5px;
+}
+
+.vignetta__2{
+  display: none;
+  width:300px;
+  background-color: white;
+  color: black;
+  border: 1px solid #2c6ded;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+
+.vignetta p{
+  padding: 5px;
+}
+
+.icona__squalo{
+  height: 55px;
+  width: 55px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.icona__squalo img{
+  width: 100%;
+}
+
+
+
 /* responsive */
 
 @media screen and (min-width: 992px){
@@ -388,6 +434,21 @@ footer h5{
   }
 
   .scroll__img{
+    display: none;
+  }
+
+  .squalo{
+    position: fixed;
+    z-index: 10;
+    bottom: 3%;
+    left: 3%;
+  }
+
+  .vignetta__2{
+    display: block;
+  }
+
+  .vignetta{
     display: none;
   }
 }
