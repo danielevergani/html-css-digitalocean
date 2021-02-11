@@ -373,6 +373,7 @@ footer h5{
 }
 
 .vignetta{
+  vertical-align: middle;
   z-index: 6;
   position: relative;
   width:300px;
@@ -453,6 +454,7 @@ footer h5{
 }
 
 .icona__gatto{
+  vertical-align: middle;
   position: relative;
   height: 55px;
   width: 55px;
