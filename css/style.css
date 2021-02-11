@@ -449,6 +449,7 @@ footer h5{
 }
 
 .icona__gatto{
+  position: relative;
   height: 55px;
   width: 55px;
   display: inline-block;
@@ -459,6 +460,21 @@ footer h5{
   width: 100%;
 }
 
+.notifica{
+  position: absolute;
+  bottom: 75%;
+  right: -40%;
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.notifica span{
+  color: white;
+  vertical-align: middle;
+}
 
 
 /* responsive */
