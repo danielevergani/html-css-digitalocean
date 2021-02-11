@@ -231,7 +231,13 @@ header a{
   padding: 10px;
   font-size: 30px;
   vertical-align: -50%;
+  color: #75809A;
 }
+
+.scroll__img:hover{
+  color: #051f4e;
+}
+
 
 .design__example img{
   width: 80%;
