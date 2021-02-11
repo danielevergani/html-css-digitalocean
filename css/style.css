@@ -8,6 +8,11 @@ a:hover{
   text-decoration: none;
 }
 
+a:focus{
+  text-decoration: none;
+  color: inherit;
+}
+
 .bg__grey{
   background-color: #f3f5f9;
 }
@@ -35,6 +40,11 @@ h2{
 }
 
 /* buttons */
+
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
 .btn__blue__text{
   color: #2c6ded;
 }
