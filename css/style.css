@@ -24,6 +24,10 @@ a:hover{
   color: #2c6ded;
 }
 
+.grey__p{
+  color: #75809A;
+}
+
 /* typo */
 
 h2{
@@ -207,8 +211,16 @@ header a{
   padding-bottom: 15px;
 }
 
+.config__block p{
+  color: #75809A;
+}
+
 .config__block h4{
   padding: 10px 0;
+}
+
+#configuration h2,h4{
+  color: #051f4e;
 }
 
 /* design */
@@ -262,7 +274,7 @@ header a{
   padding-bottom: 30px;
 }
 
-#features h2, h4{
+#features h2,h4{
   color: #051f4e;
 }
 
@@ -314,6 +326,10 @@ header a{
 
 #development h2{
   padding-bottom: 30px;
+}
+
+#development h2,h4{
+  color: #051f4e;
 }
 
 .box{
