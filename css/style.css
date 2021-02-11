@@ -68,6 +68,7 @@ h2{
 .navigation{
   height:60px;
   background-color: white;
+  text-transform: capitalize;
 }
 
 .nav__logo{
@@ -289,7 +290,7 @@ header a{
 /* table */
 
 #table{
-  padding: 40px 0;
+  padding: 100px 0;
   color: white;
   background-image: url("../img/bg-map.svg");
   background-repeat: no-repeat;
@@ -388,6 +389,10 @@ footer li{
 footer i{
   color: #75809A;
   font-size: 20px;
+}
+
+footer a{
+  color: #75809A;
 }
 
 footer h5{
