@@ -101,6 +101,15 @@ h2{
   display: inline-block;
 }
 
+.navigation span{
+  vertical-align: baseline;
+}
+
+.navigation i{
+  vertical-align: text-bottom;
+  padding-left: 4px;
+}
+
 header a{
   color: black;
 }
